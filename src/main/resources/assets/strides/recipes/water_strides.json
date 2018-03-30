@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WB"  ],
+  "key": {
+    "B": [
+      {
+        "item": "minecraft:leather_boots",
+        "data": 0
+      }
+    ],
+    "W": [
+      {
+        "item": "minecraft:water_bucket",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "strides:water_strides",
+    "data": 0
+  }
+}

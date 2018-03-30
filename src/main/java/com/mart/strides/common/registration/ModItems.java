@@ -2,10 +2,7 @@ package com.mart.strides.common.registration;
 
 import com.google.common.collect.Lists;
 import com.mart.strides.Strides;
-import com.mart.strides.common.item.ItemAnimalStrides;
-import com.mart.strides.common.item.ItemFlowerStrides;
-import com.mart.strides.common.item.ItemTriggerStrides;
-import com.mart.strides.common.item.ItemWaterStrides;
+import com.mart.strides.common.item.*;
 import com.mart.strides.common.util.IModelProvider;
 import it.unimi.dsi.fastutil.ints.Int2ObjectArrayMap;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -30,6 +27,9 @@ public class ModItems {
     public static final Item FLOWER_STRIDES = Items.AIR;
     public static final Item ANIMAL_STRIDES = Items.AIR;
     public static final Item TRIGGER_STRIDES = Items.AIR;
+    public static final Item ICE_STRIDES = Items.AIR;
+    public static final Item HERMES_STRIDES = Items.AIR;
+    public static final Item OBSIDIAN_STRIDES = Items.AIR;
 
     static List<Item> items;
 
@@ -39,7 +39,10 @@ public class ModItems {
                 new ItemWaterStrides("water_strides"),
                 new ItemFlowerStrides("flower_strides"),
                 new ItemAnimalStrides("animal_strides"),
-                new ItemTriggerStrides("trigger_strides")
+                new ItemTriggerStrides("trigger_strides"),
+                new ItemIceStrides("ice_strides"),
+                new ItemHermesStrides("hermes_strides"),
+                new ItemObsidianStrides("obsidian_strides")
         );
 
         event.getRegistry().registerAll(items.toArray(new Item[0]));

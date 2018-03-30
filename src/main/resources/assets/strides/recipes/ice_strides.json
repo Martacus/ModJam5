@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WBW",
+    "WWW"  ],
+  "key": {
+    "B": [
+      {
+        "item": "minecraft:leather_boots",
+        "data": 0
+      }
+    ],
+    "W": [
+      {
+        "item": "minecraft:ice",
+        "data": 0
+      }
+    ]
+  },
+  "result": {
+    "item": "strides:ice_strides",
+    "data": 0
+  }
+}

@@ -2,7 +2,9 @@ package com.mart.strides.common.registration;
 
 import com.google.common.collect.Lists;
 import com.mart.strides.Strides;
+import com.mart.strides.common.item.ItemAnimalStrides;
 import com.mart.strides.common.item.ItemFlowerStrides;
+import com.mart.strides.common.item.ItemTriggerStrides;
 import com.mart.strides.common.item.ItemWaterStrides;
 import com.mart.strides.common.util.IModelProvider;
 import it.unimi.dsi.fastutil.ints.Int2ObjectArrayMap;
@@ -25,6 +27,9 @@ import java.util.List;
 public class ModItems {
 
     public static final Item WATER_STRIDES = Items.AIR;
+    public static final Item FLOWER_STRIDES = Items.AIR;
+    public static final Item ANIMAL_STRIDES = Items.AIR;
+    public static final Item TRIGGER_STRIDES = Items.AIR;
 
     static List<Item> items;
 
@@ -32,7 +37,9 @@ public class ModItems {
     public static void init(RegistryEvent.Register<Item> event){
         items = Lists.newArrayList(
                 new ItemWaterStrides("water_strides"),
-                new ItemFlowerStrides("flower_strides")
+                new ItemFlowerStrides("flower_strides"),
+                new ItemAnimalStrides("animal_strides"),
+                new ItemTriggerStrides("trigger_strides")
         );
 
         event.getRegistry().registerAll(items.toArray(new Item[0]));

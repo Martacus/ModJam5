@@ -27,7 +27,9 @@ public class ItemFlowerStrides extends ItemArmorBase {
         Random rand = new Random();
         int flowerMeta = rand.nextInt(9);
 
-        player.getEntityWorld().setBlockState(pos, Blocks.RED_FLOWER.getStateFromMeta(flowerMeta));
+        if(player.getEntityWorld().getBlockState(pos.add(0, -1, 0)).getBlock() == Blocks.GRASS){
+            player.getEntityWorld().setBlockState(pos, Blocks.RED_FLOWER.getStateFromMeta(flowerMeta));
+        }
 
         super.onArmorTick(world, player, itemStack);
     }

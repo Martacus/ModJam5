@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FBF",
+    "FFF"  ],
+  "key": {
+    "B": [
+      {
+        "item": "minecraft:leather_boots",
+        "data": 0
+      }
+    ],
+    "F": [
+      {
+        "item": "minecraft:red_flower",
+        "data": 0
+      },
+      {
+        "item": "minecraft:red_flower",
+        "data": 1
+      },
+      {
+        "item": "minecraft:red_flower",
+        "data": 2
+      },
+      {
+        "item": "minecraft:red_flower",
+        "data": 3
+      },
+      {
+        "item": "minecraft:red_flower",
+        "data": 4
+      },
+      {
+        "item": "minecraft:red_flower",
+        "data": 5
+      },
+      {
+        "item": "minecraft:red_flower",
+        "data": 6
+      },
+      {
+        "item": "minecraft:red_flower",
+        "data": 7
+      },
+      {
+        "item": "minecraft:red_flower",
+        "data": 8
+      }
+    ]
+  },
+  "result": {
+    "item": "strides:flower_strides",
+    "data": 0
+  }
+}

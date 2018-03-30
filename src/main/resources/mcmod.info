@@ -1,0 +1,7 @@
+{
+  "modid": "strides",
+  "name": "Strides",
+  "description": "New boots, basically :D",
+  "version": "${version}",
+  "mcversion": "${mcversion}"
+}
